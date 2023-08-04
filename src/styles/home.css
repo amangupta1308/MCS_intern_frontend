@@ -1,0 +1,70 @@
+.body{
+    height: 90vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    box-shadow: 1px 1px 15px rgb(241, 178, 178);
+    border: 3px solid rgba(244, 244, 111, 0.879);
+    width: 90%;
+    height: 45%;
+    font-size: xx-large;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.description{
+    text-transform: capitalize;
+    box-shadow: 1px 1px 5px grey;
+    border: 3px solid rgba(244, 244, 111, 0.879);
+    border-radius: 10px;
+    height: 60%;
+    width: 90%;
+    font-size: x-large;
+    margin-bottom: 3%;
+    text-align: center;
+
+}
+.btnsubmit{
+    height: 70px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #dd7979;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    margin: 30px 0;
+}
+.note{
+    width: 50%;
+    height: 8%;
+    background-color: #f9c254c2;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 10px;
+    margin-bottom: 8%;
+}
+.form-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.radbtn{
+    margin-bottom: 3%;
+}
