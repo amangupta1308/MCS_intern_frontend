@@ -5,7 +5,7 @@ const Home = () => {
   const [formd, fillForm] = useState({ title: "", description: "", status: "ACTIVE" });
   const formSubmit = async (e) => {
     e.preventDefault();
-    let data = await fetch('/api', {
+    let data = await fetch('https://mcs-intern-backend.onrender.com/api', {
       method: "post",
       body: JSON.stringify(formd),
       headers: {

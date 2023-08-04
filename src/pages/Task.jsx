@@ -11,7 +11,7 @@ const Task = () => {
   })
   useEffect(() => {
     const getData = async () => {
-      let result = await fetch("/api", {
+      let result = await fetch("https://mcs-intern-backend.onrender.com/api", {
         method: "get",
         headers: {
           'content-type': 'application/json;charset=utf-8'
@@ -25,7 +25,7 @@ const Task = () => {
   }, [])
 
   const DeleteTask = async (id) => {
-    let result = await fetch(`/api/${id}`, {
+    let result = await fetch(`https://mcs-intern-backend.onrender.com/api/${id}`, {
       method: "DELETE",
       headers: {
         'content-type': 'application/json;charset=utf-8'

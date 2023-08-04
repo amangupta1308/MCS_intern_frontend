@@ -8,7 +8,7 @@ const Update = () => {
     const nav = useNavigate();
     useEffect(() => {
         let getData = async () => {
-            let result = await fetch(`/api/${id}`, {
+            let result = await fetch(`https://mcs-intern-backend.onrender.com/api/${id}`, {
                 method: "get",
                 headers: {
                     "Content-Type": "application/json;charset=utf-8"
@@ -21,7 +21,7 @@ const Update = () => {
     }, [])
     const formSubmit = async (e) => {
         e.preventDefault();
-        let result = await fetch(`/api/${id}`, {
+        let result = await fetch(`https://mcs-intern-backend.onrender.com/api/${id}`, {
             method: "PATCH",
             body: JSON.stringify(data),
             headers: {
